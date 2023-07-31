@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sticky Navigation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- ============================= CDN link =================================  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./footer/footer.css">
+    <link rel="stylesheet" href="button.css">
+
+    <!------------------------js library---------------->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+
+    <button onclick="topFunction()" id="myBtn">up</button>
+    <nav class="header">
+        <a href="./index.html" style="color: black; text-decoration: none;" class="logo">FCFS <br> Information</a>
+        <ul>
+            <li><a href="./index.html">home</a></li>
+            <li><a href="about/about.html">about</a></li>
+            <li><a href="service/service.html">Service</a></li>
+            <li><a href="Contact/contact.html">contact</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="home_bg">
+        <img src="home.jpg" alt="" width="100%" height="550">
+    </div>
+
+
+    <section>
+        <div class="center-div">
+            <img src="web.avif" alt="">
+            <p style="font-size: 23px;"  data-aos="flip-left" >No Road Is Long With Good Company .</p>
+            <div class="header-buttons">
+                <a href="about/about.html">About Us</a>
+
+                <a href="Contact/contact.html">Contact</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="header-extradiv">
+        <div class="container">
+            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+           
+            <div class="row">
+                <div class=" extra-div col-lg-4 col-md-4 col-12">
+                    <a href="#"><i class="fa-3x fa fa-desktop" aria-hidden="true"></i></a>
+                    <h2> EASY TO USE </h2>
+                    <br>
+                    <P>Every website is an opportunit to learn, to figure out problems and challenes,to invent and
+                        reinvent.A website is a collection of publicly accessible, interlinked Web pages that share a
+                        single domain name. Websites can be created and maintained by an individual, group, business or
+                        organization to serve a variety of purposes.</P>
+
+                </div>
+                <div class=" extra-div col-lg-4 col-md-4 col-12">
+                    <a href="#"><i class="fa-3x fa fa-trophy" aria-hidden="true">
+                        </i></a>
+
+                    <h2> AWESOME DESIGN </h2>
+                    <P>Get complete design freedom with the Editor. Drag and drop technology lets you move things around
+                        your site however you’d like. Every design element is customizable. Resize, recolor, rotate and
+                        align elements to make it look just right. Then choose from 1000s of intuitive tools and
+                        built-in features to create a professional web presence.</P>
+
+                </div>
+                <div class=" extra-div col-lg-4 col-md-4 col-12">
+                    <a href="#"><i class="fa-3x fa fa-magic" aria-hidden="true">
+                        </i></a>
+                    <h2> EASY TO CUSTOMIZE </h2>
+                    <P>We are a web design company that specializes in building custom websites. We offer a suite of
+                        comprehensive web design and development services geared toward increasing your organic traffic
+                        and sales conversions.</P>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <div class="serviceffers" id="Servicediv">
+        <div class="container headings text-center">
+            <h2 class="text-center font-weight-bold"> WHAT DO WE OFFER</h2>
+            <p class="text-center" style="font-size: 18px;">Let's check the our website.</p>
+        </div>
+
+        <div class="container">
+            <div class="row" data-aos="fade-down-right">
+                <div class="col-lg-6 col-md-12 col-10 offset-1 offset-lg-0">
+                    <div class="name my-3">
+                        <h4>Website design</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50"
+                                aria-valuemin="100" aria-valuemax="100" style="width:100%">
+                                100%
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="name my-3">
+                        <h4>Digital marketing</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success active" role="progressbar"
+                                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                90%
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="name my-3">
+                        <h4>Protal development</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" aria-valuenow="10"
+                                aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                80%
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="name my-3">
+                        <h4>E-Commerce</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                70%
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="name my-3">
+                        <h4>API integration</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="10"
+                                aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                60%
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="name my-3">
+                        <h4>Web automation</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped  bg-danger $cyan-500" role="progressbar"
+                                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+                                50%
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="icon col-lg-6" data-aos="fade-down-left">
+                    <div class="col-lg-6 col-md-12 col-12 Servicediv">
+                        <div class="row">
+                            <img src="images/website.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12 Servicediv">
+                        <div class="row">
+                            <img src="images/icons8-commercial-60.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12 Servicediv">
+                        <div class="row">
+                            <img src="images/portal.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12 Servicediv">
+                        <div class="row">
+                            <img style="width: 70px;" src="images/e commerce.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12 Servicediv">
+                        <div class="row">
+                            <img src="images/api.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12 Servicediv">
+                        <div class="row">
+                            <img src="images/webautmation.png">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ====================== footer start ==========================================  -->
+    <footer class="footer">
+        <div class="container">
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <p style="color: aliceblue;">We are creating a website in secure manner also making a website and
+                        more .....
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Get help</h4>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="about/about.html">ABOUT</a></li>
+                        <li><a href="service/service.html">SERVICE</a></li>
+                        <li><a href="Contact/contact.html">CONTACT US</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Infromations</h4>
+                    <p style="color: aliceblue;">for business professionals caught between high OEM price and mediocre
+                        print and graphic output.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <div class="Social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- ====================== footer end   ==========================================  -->
+
+
+    <script src="js.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

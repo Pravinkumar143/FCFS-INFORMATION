@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--=============================bootstrap==========================-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <!--=============================font awesome=========================-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+   <link rel="stylesheet" type="text/css" href="Responsive.css">
+    <title>Responsive</title>
+
+</head>
+<body>
+  
+    <section class="fact-area">
+       <div class="container">
+        <div class="fact-box">
+            <div class="row">
+            <div class="col-lg col-6 single-fact">
+                <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                <h2 class="count"> 2000 </h2>
+                <p> Friends </p>
+            </div>
+
+            <div class="col-lg col-6 single-fact">
+                <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                <h2 class="count"> 5000 </h2>
+                <p> Followers </p>
+            </div>
+
+            <div class="col-lg col-6 single-fact">
+                <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+                <h2 class="count"> 500 </h2>
+                <p> Followers</p>
+            </div>
+
+            <div class="col-lg col-6 single-fact">
+                <i class="fa fa-youtube fa-3x" aria-hidden="true"></i>
+                <h2 class="count"> 2000 </h2>
+                <p> Subscribers</p>
+            </div>
+
+            <div class="col-lg col-6 single-fact">
+                <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+                <h2 class="count"> 500 </h2>
+                <p> Connections</p>
+            </div>
+            </div>
+        </div>
+       </div> 
+        
+    </section>
+    <!----===============================javascript=====================--->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+
+    <!--=================================waypoint jquery cdn==================-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--================================counter up cdn======================= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--===========================-->
+    <script>
+        $('.count').counterUp({
+    delay: 100,
+    time: 10000
+});
+    </script>
+</body>
+</html>
